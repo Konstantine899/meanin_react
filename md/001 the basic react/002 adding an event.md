@@ -161,7 +161,7 @@ class App extends Component {
 export default App;
 ```
 
-![](../img/005.png)
+![](./img/005.png)
 
 Но наша задача сводится к тому что бы конкретно изменить состояние. Про это поговорим позже.
 Посмотрим какие события мы можем использовать и какие название атрибутов мы можем использовать в **React**.
@@ -174,12 +174,12 @@ export default App;
 
 Здесь мы можем увидеть список всех event которые потдерживаются в **JSX**. т.е. например если меня интересуют события клавиатуры [https://reactjs.org/docs/events.html#keyboard-events](https://reactjs.org/docs/events.html#keyboard-events)
 
-![](../img/007.png)
+![](./img/007.png)
 
 Мы можем посмотреть название событий и то как они записываются. |Если нам нужно прослушать события нажатия на кнопку то мы можем использовать 3-три эти события.
 
-![](../img/008.png)
+![](./img/008.png)
 
 Так же можем увидить список всех событий потдерживаемые от мышки. [https://reactjs.org/docs/events.html#mouse-events](https://reactjs.org/docs/events.html#mouse-events)
 
-![](../img/009.png)
+![](./img/009.png)

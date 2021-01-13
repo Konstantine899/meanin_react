@@ -74,7 +74,7 @@ class App extends Component {
 export default App;
 ```
 
-![](../img/022.png)
+![](./img/022.png)
 
 Теперь нам каким-то образом нам нужно получить то, что у нас находится в данном **input** и заменить заголовок.
 
@@ -146,7 +146,7 @@ class App extends Component {
 export default App;
 ```
 
-![](../img/023.png)
+![](./img/023.png)
 
 Далее в **handleInput** меняю состояние
 
@@ -218,4 +218,4 @@ class App extends Component {
 export default App;
 ```
 
-![](../img/024.png)
+![](./img/024.png)
