@@ -2,7 +2,7 @@
 
 В папке компонента обычно создают файл стиле и называют его точно так же как компонент.
 
-```js
+```jsx
 //src/components.Car.js
 import React from 'react';
 import './Car.css';

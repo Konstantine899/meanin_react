@@ -4,7 +4,7 @@
 
 Закоментируем все элементы машин. И разберем как мы можем вывести список всех этих элементов сохранив функционал. Так же удаляю константу **const cars = this.state.cars;** больше она не понадобится.
 
-```js
+```jsx
 // src/App.js
 import React, { Component } from 'react';
 import './App.css';
@@ -76,7 +76,7 @@ export default App;
 
 ![](./img/025.png)
 
-```js
+```jsx
 // src/App.js
 import React, { Component } from 'react';
 import './App.css';
@@ -148,7 +148,7 @@ export default App;
 
 В данной функции указываю **return()** в котором я могу вернуть некий **JSX**. И указываю что на каждой итерации я хочу преобразовать объекты массива **cars** в компонет **Car**. Далее необходимо каждому из компонентов передать параметры **name={}** указываю массив и поле из которого нужно вывести данные **name={car.name}**, тоже самое с годом. В функцию **onChangeTitle={}** в нее передаю **callback** стрелочную функцию с параметром **this.changeTitleHandler()** в который передаю имя текущей машины т.е. **car.name**.
 
-```js
+```jsx
 // src/App.js
 import React, { Component } from 'react';
 import './App.css';
@@ -232,7 +232,7 @@ export default App;
 
 В **JSX** есть специальный атрибут который мы должны определять для элементов списка. Мы его передаем на тот элемент который итерируется, на корневой. В Метод map вторым параметром указываю **index** т.е. здесь будет хранится информация о том какой текущий индекс выводится в массиве и в качестве параметра **key={index}** передаю **index**.
 
-```js
+```jsx
 // src/App.js
 import React, { Component } from 'react';
 import './App.css';
@@ -297,7 +297,7 @@ export default App;
 
 ![](./img/026.png)
 
-```js
+```jsx
 // src/App.js
 import React, { Component } from 'react';
 import './App.css';
@@ -360,7 +360,7 @@ export default App;
 
 Почему-то в **Car.js** стрелочная функция работает только с круглыми скобками а не с фигурными.
 
-```js
+```jsx
 //src/components.Car.js
 import React from 'react';
 

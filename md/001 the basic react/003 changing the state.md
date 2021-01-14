@@ -20,7 +20,7 @@
 
 ![](./img/012.png)
 
-```js
+```jsx
 // src/App.js
 import React, { Component } from 'react';
 import './App.css';
@@ -77,7 +77,7 @@ export default App;
 
 После чего он заново вызывает метод **render**. И мы в этом можем убедится если напишем **console.log('Render')**
 
-```js
+```jsx
 // src/App.js
 import React, { Component } from 'react';
 import './App.css';

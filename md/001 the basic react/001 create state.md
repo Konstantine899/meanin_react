@@ -2,7 +2,7 @@
 
 Код и структура прокта из прошлого блока.
 
-```js
+```jsx
 // src/App.js
 import React, { Component } from 'react';
 import './App.css';
@@ -33,7 +33,7 @@ class App extends Component {
 export default App;
 ```
 
-```js
+```jsx
 //src/components.Car.js
 import React from 'react';
 
@@ -64,7 +64,7 @@ export default (props) => (
 
 В **state** указываю ключ, который может быть представлен ввиде массива.
 
-```js
+```jsx
 // src/App.js
 import React, { Component } from 'react';
 import './App.css';
@@ -101,7 +101,7 @@ export default App;
 
 Теперь в каждом элементе данного массива, мы будем описывать его как объект. Определяю свойство **name** и **year**, и переношу данные.
 
-```js
+```jsx
 // src/App.js
 import React, { Component } from 'react';
 import './App.css';
@@ -148,7 +148,7 @@ export default App;
 
 Теперь для того что бы вывести весь массив машин в компоненте **\<Car/>** в атрибуте **name={cars[0].name}** т.е. обращаюськ индексу и вывожу его имя. Тоже самое делаю и для года.
 
-```js
+```jsx
 // src/App.js
 import React, { Component } from 'react';
 import './App.css';
@@ -193,7 +193,7 @@ export default App;
 
 Теперь что бы заменить статический вывод на состояние из **state** так же через фигурные скобки ображаюсь к **this.state.pageTitle**.
 
-```js
+```jsx
 // src/App.js
 import React, { Component } from 'react';
 import './App.css';

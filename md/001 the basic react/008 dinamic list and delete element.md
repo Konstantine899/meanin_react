@@ -28,7 +28,7 @@ export default (props) => (
 
 ![](img/029.png)
 
-```js
+```jsx
 // src/App.js
 import React, { Component } from 'react';
 import './App.css';
@@ -99,7 +99,7 @@ export default App;
 
 ![](img/030.png)
 
-```js
+```jsx
 // src/App.js
 import React, { Component } from 'react';
 import './App.css';
@@ -166,7 +166,7 @@ export default App;
 
 ![](img/031.png)
 
-```js
+```jsx
 //src/components.Car.js
 import React from 'react';
 
@@ -188,7 +188,7 @@ export default (props) => (
 
 ![](img/032.png)
 
-```js
+```jsx
 // src/App.js
 import React, { Component } from 'react';
 import './App.css';
@@ -262,7 +262,7 @@ export default App;
 
 ![](img/034.png)
 
-```js
+```jsx
 // src/App.js
 import React, { Component } from 'react';
 import './App.css';
@@ -337,7 +337,7 @@ export default App;
 
 ![](img/035.png)
 
-```js
+```jsx
 // src/App.js
 import React, { Component } from 'react';
 import './App.css';
@@ -413,7 +413,7 @@ export default App;
 
 В компоненте **Car** прописываю значение по умолчанию. и как параметр в **value** передаю **props.name**.
 
-```js
+```jsx
 //src/components.Car.js
 import React from 'react';
 
@@ -437,7 +437,7 @@ export default (props) => (
 
 Теперь реализуем следующую задачу. Например я хочу удалить определенный элемент из нашего массива. У нас у каждого компонента будет кнопка **delete** при нажатии на которую будет удаляться определенный элемент.
 
-```js
+```jsx
 //src/components.Car.js
 import React from 'react';
 
@@ -459,7 +459,7 @@ export default (props) => (
 
 ![](img/038.png)
 
-```js
+```jsx
 // src/App.js
 import React, { Component } from 'react';
 import './App.css';
@@ -534,7 +534,7 @@ export default App;
 
 ![](img/039.png)
 
-```js
+```jsx
 // src/App.js
 import React, { Component } from 'react';
 import './App.css';

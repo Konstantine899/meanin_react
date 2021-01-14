@@ -4,7 +4,7 @@
 
 ![](img/001.png)
 
-```js
+```jsx
 // src/App.js
 import React, { Component } from 'react';
 import './App.css';
@@ -89,7 +89,7 @@ class App extends Component {
 export default App;
 ```
 
-```js
+```jsx
 //src/components.Car.js
 import React from 'react';
 

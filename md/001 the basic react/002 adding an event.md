@@ -4,7 +4,7 @@
 
 Давайте реализуем следующую задачу. Допустим при клике на которую мы будем изменять название нашей страницы.
 
-```js
+```jsx
 // src/App.js
 import React, { Component } from 'react';
 import './App.css';
@@ -48,7 +48,7 @@ export default App;
 
 Для этого использую атрибут js **onclick**. Но в **React** все это пишется в **camelcase** т.е. **onClick**. Именно таким образом добавляется прослушка события в **JSX**.
 
-```js
+```jsx
 // src/App.js
 import React, { Component } from 'react';
 import './App.css';
@@ -96,11 +96,11 @@ export default App;
 
 В React компоненте мы можем создавать методы по разному.
 
-```js
+```jsx
 changeTitleHandler(){}
 ```
 
-```js
+```jsx
 changeTitleHandler: function(){}
 ```
 
@@ -117,7 +117,7 @@ changeTitleHandler = () => {
 И теперь для того что бы передать в атрибут **reference** до функции. Через **this**. обращаюсь до той функции которую я хочу выполнить.
 И что очень важно здесь при вызове функции нельзя писать круглые скобки, потому что в этом случае метод будет вызван сразуже. Нам же здесь нужно просто указать указатель на эту функцию которая выполнится в тот момент когда будет происходить событие.
 
-```js
+```jsx
 // src/App.js
 import React, { Component } from 'react';
 import './App.css';

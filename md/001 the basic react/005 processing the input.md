@@ -8,7 +8,7 @@
 
 И в кнопке передаю **reference** на данную функцию которую не вызываю.
 
-```js
+```jsx
 // src/App.js
 import React, { Component } from 'react';
 import './App.css';
@@ -80,7 +80,7 @@ export default App;
 
 Здесь все очень просто. React нам автоматически в данный метод **handleInput**, который мы передаем как **reference**, **\<input onChange={this.handleInput}></input>**, передает событие **event**, нативное событие event которе есть в **JS**. И теперь что бы получить состояние которое находится в **input**, при выводе в консоль вторым параметром передаю **event.target**, **target** отвечает за сам **input**, и далее у любого **input** есть поле **value** т.е. **event.target.value** где и храниться текущее его состояние.
 
-```js
+```jsx
 // src/App.js
 import React, { Component } from 'react';
 import './App.css';
@@ -150,7 +150,7 @@ export default App;
 
 Далее в **handleInput** меняю состояние
 
-```js
+```jsx
 // src/App.js
 import React, { Component } from 'react';
 import './App.css';
