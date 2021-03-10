@@ -1,3 +1,4 @@
+//reducer.js
 const redux = require('redux');
 
 const initialState = {
