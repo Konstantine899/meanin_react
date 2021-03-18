@@ -565,4 +565,3 @@ export default connect(mapStateToProps, mapDispatchToProps)(Counter);
 ![](../img/018.png)
 
 Теперь я получил два разных состояния для двух счетчиков и они работают не зависимо друг от друга.
-\
