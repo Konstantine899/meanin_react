@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import rootReducer from './redux/rootReducer';
 import { createStore, applyMiddleware } from 'redux';
 import { Provider } from 'react-redux';
+import reduxThunk from 'redux-thunk';
 
 import App from './App';
 
@@ -22,7 +23,10 @@ const loggerMiddleware = (store) => (next) => (action) => {
   return result;
 };
 
-const store = createStore(rootReducer, applyMiddleware(loggerMiddleware));
+const store = createStore(
+  rootReducer,
+  applyMiddleware(loggerMiddleware, reduxThunk)
+);
 
 const app = (
   <Provider store={store}>
